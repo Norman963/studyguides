@@ -5,9 +5,9 @@
 
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Navbar } from './components/Navbar';
-import { GameCard } from './components/GameCard';
-import { GameViewer } from './components/GameViewer';
+import { Navbar } from './components/Navbar.jsx';
+import { GameCard } from './components/GameCard.jsx';
+import { GameViewer } from './components/GameViewer.jsx';
 import gamesData from './data/games.json';
 
 export default function App() {
