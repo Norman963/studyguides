@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #ffffff;
+  --color-accent: #3b82f6;
+  --color-bg: #09090b; /* zinc-950 */
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-white font-sans antialiased selection:bg-white selection:text-black;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display font-black tracking-tighter uppercase;
+  }
+}
+
+.brutalist-card {
+  @apply bg-zinc-900 border-2 border-zinc-800 hover:border-white transition-colors duration-300;
+}
+
+.brutalist-button {
+  @apply bg-white text-black hover:bg-zinc-200 px-6 py-3 font-black uppercase tracking-tight transition-all active:scale-95;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-zinc-950;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800 border-2 border-zinc-950 hover:bg-zinc-700 transition-colors;
+}
+

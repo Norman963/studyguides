@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "The classic sliding tile puzzle game.",
+    "category": "Puzzle",
+    "iframeUrl": "https://play2048.co/",
+    "thumbnail": "https://images.unsplash.com/photo-1628495306225-510852d593fd?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "description": "Block stacking fun.",
+    "category": "Classic",
+    "iframeUrl": "https://chvin.github.io/react-tetris/",
+    "thumbnail": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced puzzle game inspired by Tetris.",
+    "category": "Puzzle",
+    "iframeUrl": "https://hextris.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "dino",
+    "title": "Chrome Dino",
+    "description": "The offline dinosaur runner.",
+    "category": "Arcade",
+    "iframeUrl": "https://chromedino.com/",
+    "thumbnail": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "crossy-road",
+    "title": "Crossy Road",
+    "description": "Why did the chicken cross the road?",
+    "category": "Arcade",
+    "iframeUrl": "https://poki.com/en/g/crossy-road",
+    "thumbnail": "https://images.unsplash.com/photo-1553481199-656500596169?w=400&h=250&fit=crop"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Roll down the slope as fast as you can.",
+    "category": "Action",
+    "iframeUrl": "https://slope-game.github.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+  }
+]
